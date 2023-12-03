@@ -1,11 +1,8 @@
 'use client'
 
-import { FC } from 'react'
 import { useLoginController } from '@/app/controller/LoginController'
 
-import RootLayoutProps from '../lib/props/TypeProps'
-
-const LoninPage: FC<RootLayoutProps> = (props) => {
+const LoginPage = () => {
   const loginctx = useLoginController()
   return (
     <div>
@@ -72,4 +69,4 @@ const LoninPage: FC<RootLayoutProps> = (props) => {
   )
 }
 
-export default LoninPage;
+export default LoginPage

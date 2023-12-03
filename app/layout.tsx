@@ -1,4 +1,3 @@
-import { inter } from '@/app/ui/fonts';
 import { FC } from 'react';
 
 import '@/app/ui/global.css';
